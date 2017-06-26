@@ -4,7 +4,7 @@ var frame = require("ui/frame");
 function authorize() {
 	
 	var wpclient = ApiClient.newClient({
-	    baseUrl: "https://demo.wp-api.org",
+	    baseUrl: "https://scdhub.org",
 	    route: "{resource}",
 	    //authorizer: new ApiClient.BasicAuth("some_username", "some_password"), //Uncomment this for authorization
 	});
